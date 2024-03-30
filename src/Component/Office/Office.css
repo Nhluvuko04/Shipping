@@ -1,0 +1,44 @@
+.office {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    margin: 300px auto 0; /* Added margin-top of 100px */
+    padding: 0px 140px;
+    background: linear-gradient(180deg, white 0%, black 60%);
+}
+.office-left{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.office-left h1{
+    color: black;
+    font-size: 80px;
+    font-weight: 600;
+}
+.office-left p{
+  color: black;
+  font-size: 22px;
+  font-weight: 600;
+}
+.office-left button{
+   width: 282px;
+   height: 70px;
+   border-radius: 35px;
+   background: #ff4141;
+   border: none;
+   color: white;
+   font-size: 22px;
+   font-weight: 500;
+   margin-top: 30px;
+   cursor: pointer;
+}
+
+
+.office-right{
+ flex: 1;
+ display: flex;
+ align-items: center;
+ padding-top: 50px;
+}

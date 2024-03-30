@@ -1,0 +1,76 @@
+.hero{
+    height: 100vh;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    display: flex;
+    background: linear-gradient(180deg, white 0%, orange 60%);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+.hero-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1.1;
+}
+
+.hero-left h2{
+    color: white; 
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.hero p{
+    color: white;
+    font-size: 35px;  
+    font-weight: 700;
+}
+
+.hero-hand-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust the gap between the image and other elements */
+    width: 80px; /* Decrease the width of the container */
+}
+
+.hero-hand-icon img {
+    width: 50px; /* Adjust the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    color: #ff4141;
+}
+
+
+.hero-latest-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 310px;
+    height: 70px;
+    border-radius: 35px; /* Changed border-radius to half of the height */
+    margin-top: 30px;
+    background: lightblue;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    width: 200px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    border-radius: 25px; /* Adjust border-radius to maintain the button's shape */
+    font-size: 18px; /* Adjust font-size as needed */
+}
+.hero-right{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-right img{
+    height: 500px;
+}

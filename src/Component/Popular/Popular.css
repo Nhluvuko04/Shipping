@@ -1,0 +1,52 @@
+.popular {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  height: 90vh;
+  background: white;
+}
+
+.popular h1 {
+  color: black;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.popular hr {
+  width: 200px;
+  height: 6px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.popular-items {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: center; /* Center items horizontally */
+}
+
+.popular-item {
+  margin: 4px; /* Adjust margin between items */
+  display: flex; /* Set display to flex */
+  flex-direction: column; /* Align items vertically */
+  align-items: center; /* Center items horizontally */
+  text-align: center; /* Center text horizontally */
+  width: calc(50% - 8px); /* Set a dynamic width for each item (50% minus margin) */
+}
+
+.popular-item img {
+  width: 100px; /* Set the width of the image */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 5px; /* Add space below the image */
+  align-items: center;
+}
+
+.popular-item .name {
+  font-weight: bold; /* Make item name bold */
+}
+
+.popular-item .price {
+  color: white; /* Example: Price color */
+}
