@@ -12,7 +12,7 @@ const Navbar = () => {
     <div className='navbar'>
       <div className='nav-logo'>
         <img src={baglogo} alt=""/>
-        <p>Edith Online Shopping</p>
+        <p>Edith Essentials </p>
       </div>
       <ul className="nav-menu">
         <li onClick={() => { setMenu("Shop") }}>
@@ -25,7 +25,7 @@ const Navbar = () => {
           <Link style={{textDecoration:'none'}}to='/lotions'>Lotions</Link>{menu === "Lotions" ? <hr/> : <></>}
         </li>
         <li onClick={() => { setMenu("Books") }}>
-          <Link to='/books'>Books</Link>{menu === "Books" ? <hr/> : <></>}
+          <Link style={{textDecoration:'none'}}to='/books'>Books</Link>{menu === "Books" ? <hr/> : <></>}
         </li>
       </ul>
 

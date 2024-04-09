@@ -10,6 +10,8 @@ import banner_bag from './Component/Assests/banner_bag.jpg'
 import banner_lotion from './Component/Assests/banner_lotion.jpg'
 import banner_book from'./Component/Assests/banner_book.jpg'
 import Footers from './Component/Footers/Footers';
+import Login from './Component/Login/Login';
+import Calendar from './Component/Calender/Calender';
 
 
 function App() {
@@ -20,12 +22,13 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Shop />} />
+          <Route path='/Sign' element={< Login/>}/>
+          <Route path='/Calender' element={< Calendar/>}/>
           <Route path="/bags" element={<ShoppingCategory banner={banner_bag}category="bag" />} />
           <Route path="/lotions" element={<ShoppingCategory banner={banner_lotion} category="lotion" />} />
           <Route path="/books" element={<ShoppingCategory  banner={banner_book}category="book" />} />
-          
-          <Route path='/product'element={<Product/>}>
-            <Route path=':ProductId' element={<Product/>}/>
+          <Route path='/product'element={<Product />}>
+            <Route path=':ProductId' element={<Product />}/>
           </Route>
           <Route path="/cart" element={<Cart />} />
           <Route path="/login" element={<LoginSign />} />

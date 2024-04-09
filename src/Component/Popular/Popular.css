@@ -3,14 +3,13 @@
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  height: 90vh;
+  height: 50vh;
   background: white;
 }
 
 .popular h1 {
   color: black;
-  font-size: 50px;
-  font-weight: 600;
+  align-items: center;
 }
 
 .popular hr {
@@ -28,18 +27,20 @@
 }
 
 .popular-item {
-  margin: 4px; /* Adjust margin between items */
+  margin: 2px; /* Adjusted margin between items */
   display: flex; /* Set display to flex */
   flex-direction: column; /* Align items vertically */
   align-items: center; /* Center items horizontally */
-  text-align: center; /* Center text horizontally */
-  width: calc(50% - 8px); /* Set a dynamic width for each item (50% minus margin) */
+  text-align: center; 
+  gap: 5px;;
+  width: calc(50% - 4px); /* Adjusted width with reduced margin */
 }
 
+
 .popular-item img {
-  width: 100px; /* Set the width of the image */
+  width: 50px; /* Set the width of the image */
   height: auto; /* Maintain aspect ratio */
-  margin-bottom: 5px; /* Add space below the image */
+  margin-bottom: 2px; /* Add space below the image */
   align-items: center;
 }
 

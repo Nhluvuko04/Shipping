@@ -1,7 +1,7 @@
 .LoginSign{
  width: 100%;
  height: 80vh;
- background: #fce3fe;
+ background: black;
  padding: 100px;
 
 }
@@ -12,19 +12,29 @@ background: white;
 margin: auto;
 padding: 40px 60px;
 
-}
-.login-container h1{
- margin:  20px 0px;
-}
-.login-container button{
-width: 580px;
-height: 72px;
-color: white;
-background: lightblue;
-margin-top: 30px;
-border: none;
-font-size: 24px;
-font-weight: 500;
-cursor: pointer;
 
 }
+.login-container h1 {
+    margin: 20px 0px;
+    text-align: center;
+    align-items: center; /* This property does not affect text alignment, so it can be removed */
+}
+
+.login-container button {
+    width: 200px;
+    height: 50px;
+    color: white;
+    background: lightblue;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+    display: block;
+}
+.login{
+ color: black;
+}
+

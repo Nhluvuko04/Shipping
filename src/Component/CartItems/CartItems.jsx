@@ -51,6 +51,8 @@ const CartItems = () => {
                    <h3>R{0}</h3>
                 </div>
           </div>
+              
+
           <div className='cart-down'>
           <button>Check Out</button>
           </div>

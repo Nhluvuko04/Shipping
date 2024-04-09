@@ -1,51 +1,19 @@
 .newcollections {
-    padding: 20px;
-    align-items: center;
-  }
-  
-  .newcollections h1 {
-    font-size: 24px;
-    color: #333;
-  }
-  
-  .newcollections hr {
-    border: 1px ;
-  }
-  
-  .collection {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
-  }
-  
-  .collection .item {
-    position: relative; /* Set position to relative */
-    padding: 30px; /* Adjust padding to create gap */
-    text-align: center;
-  }
-  
-  .collection .item img {
-    width: 100%; /* Set width to 100% to fill container */
-    height: 250px; /* Set fixed height */
-    object-fit: cover; /* Ensure image covers entire container */
-  }
-  
-  .collection .item .name {
-    font-weight: bold;
-    margin-top: 10px;
-  }
-  
-  .collection .item .price {
-    position: absolute; /* Set position to absolute */
-    top: 10px; /* Adjust top positioning */
-    right: 10px; /* Adjust right positioning */
-    margin-top: 5px;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .collection .item .old-price {
-    text-decoration: line-through;
-    color: #999;
-  }
-  
+  text-align: center;
+  margin-top: 20px;
+  height: 50vh;
+}
+
+.newcollections h1 {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+.collection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+

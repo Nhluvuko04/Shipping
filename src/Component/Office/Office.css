@@ -18,15 +18,15 @@
     font-weight: 600;
 }
 .office-left p{
-  color: black;
+  color: white;
   font-size: 22px;
   font-weight: 600;
 }
 .office-left button{
-   width: 282px;
-   height: 70px;
+   width: 200px;
+   height: 40px;
    border-radius: 35px;
-   background: #ff4141;
+   background: lightblue;
    border: none;
    color: white;
    font-size: 22px;
@@ -42,3 +42,24 @@
  align-items: center;
  padding-top: 50px;
 }
+
+
+.Code {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    background-color: #fff; /* Add background color */
+  }
+  .Code img {
+    max-width: 100%; /* Ensure image does not exceed container width */
+    max-height: 100%; /* Ensure image does not exceed container height */
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Move the image to the left */
+    padding-top: 50px;
+  }
+  
